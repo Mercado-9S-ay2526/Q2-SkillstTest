@@ -1,0 +1,45 @@
+body {
+    background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzwQIq_7pJe6uvRrSAwXZOlABNT-HDVWGy1vRMTDrqN4sNlk_pkLQ3azsR1oa8dyRWoddpBTKdsCRN6Df9PDTLWA2UkCkjE7NL7NqstIx13ZgyFr7IV0tL0D6-KCvKdPy337u70=s1360-w1360-h1020-rw');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 800px;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            backdrop-filter: blur(5px);
+}
+
+
+
+.white-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 900px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.85);          
+    border-radius: 20px;                            
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);      
+    backdrop-filter: blur(8px);                      
+    -webkit-backdrop-filter: blur(8px);              
+    border: 1px solid rgba(255, 255, 255, 0.5);      
+    z-index: 10;                                
+}
